@@ -1,0 +1,21 @@
+.img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .img:hover {
+    transform: scale(1.1);
+  }
+  
+  .box {
+    background-color: darkgray;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
