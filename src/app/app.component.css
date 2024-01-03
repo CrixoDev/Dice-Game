@@ -1,21 +1,57 @@
+/* Common styling for images */
 .img {
     width: 200px;
     height: 200px;
     margin: 30px;
-    background-color: red;
+    background-color: #3498db;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
   }
   
+  /* Hover effect for images */
   .img:hover {
     transform: scale(1.1);
   }
   
+  /* Styling for the container */
   .box {
-    background-color: darkgray;
+    background-color: #2c3e50;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Additional styles for consistency and readability */
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add a smooth transition to all elements */
+  * {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Optional: Style links */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+  
+  /* New color for h2 */
+  h2 {
+    color: #e74c3c;
+  }
+  
+  /* New color for p */
+  p {
+    color: #95a5a6;
   }
   
